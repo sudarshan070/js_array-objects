@@ -4,6 +4,10 @@ var x = 10;
 var y = "abc";
 var a = x;
 var b = y;
+x = 10;
+y = "abc";
+a = 10;
+b = "abc";
 
 // Value of x, y, a, b
 var x = 10;
@@ -12,6 +16,7 @@ var a = x;
 var b = y;
 a = 5;
 b = "def";
+(x = 10), (y = "abc"), (a = 5), (b = "def");
 
 // Value of arr & arrCopy
 var arr = [1];
